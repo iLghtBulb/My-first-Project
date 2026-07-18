@@ -13,9 +13,7 @@ for x in scores:
 
 print("Durch 3 teilbar:")
 print(divisible_by_3)
-
-# Deine Aufgabe ab hier:
-# 1. Anzahl durch 3 teilbar ausgeben
-# 2. Anzahl nicht durch 3 teilbar ausgeben
-# 3. Größte Zahl aus divisible_by_3 ausgeben
-# 4. Kleinste Zahl aus divisible_by_3 ausgeben
+print("Anzahl durch 3 teilbar:", len(divisible_by_3))
+print("Anzahl durch 3  nicht teilbar:", len(not_divisible_by_3))
+print("Größte Zahl durch 3 telbar:", max(divisible_by_3))
+print("Kleinste Zahl durch drei teilbar:", min(divisible_by_3))
