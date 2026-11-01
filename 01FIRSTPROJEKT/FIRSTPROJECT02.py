@@ -17,3 +17,7 @@ print("Anzahl durch 3 teilbar:", len(divisible_by_3))
 print("Anzahl durch 3  nicht teilbar:", len(not_divisible_by_3))
 print("Größte Zahl durch 3 telbar:", max(divisible_by_3))
 print("Kleinste Zahl durch drei teilbar:", min(divisible_by_3))
+print("Durch 7")
+print("Durch 7 teilbar:")
+divisible_by_7 = [x for x in scores if x % 7 == 0]
+print(divisible_by_7)
