@@ -73,3 +73,5 @@ while Ergebnis < 10:
     else:
         print("Neuron nicht aktiviert")
         GewichtA += 0.5
+
+print("Endgültiges Gewicht:", GewichtA)
