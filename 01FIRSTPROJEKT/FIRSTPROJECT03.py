@@ -69,7 +69,6 @@ while Ergebnis < 10:
     Ergebnis = EingabeA * GewichtA
     if Ergebnis >= 10:
         print("Neuron aktiviert")
-        break
     else:
         print("Neuron nicht aktiviert")
         GewichtA += 0.5
