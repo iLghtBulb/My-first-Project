@@ -63,6 +63,7 @@ else:
 
 EingabeA = 5
 GewichtA = 1
+Ergebnis = EingabeA * GewichtA
 
 while Ergebnis < 10:
     Ergebnis = EingabeA * GewichtA
