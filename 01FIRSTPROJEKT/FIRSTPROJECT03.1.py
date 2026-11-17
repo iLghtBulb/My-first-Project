@@ -13,7 +13,7 @@ GewichtA = 3
 Ergebnis = EingabeA * GewichtA
 
 while Ergebnis >= 10:
-    Ergebnis = EingabeA * GewichtA
     GewichtA -= 0.5
+    Ergebnis = EingabeA * GewichtA
 
 print("Endgültiges Gewicht:", GewichtA)
